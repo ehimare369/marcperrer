@@ -1,0 +1,133 @@
+<!-- ==========================
+    contact layout 1
+=========================== -->
+<section class="contact-layout1 py-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="contact-panel">
+          <div class="contact-panel__banner d-flex align-items-end mb-20">
+            <div class="bg-img">
+              <img src="assets/images/contact/1.jpg" alt="banner" />
+            </div>
+            <div class="contact-panel__banner__inner">
+              <h4 class="contact-panel__banner__title">
+                Leading Way In Building & Civil Construction!
+              </h4>
+              <p class="contact-panel__banner__desc">
+                Yet those embrace change are thriving, building bigger, better,
+                faster & stronger products than ever before!
+              </p>
+            </div>
+          </div>
+          <!-- /.contact-panel__banner -->
+          <form
+            class="contact-panel__form"
+            method="post"
+            action="assets/php/contact.php"
+            id="contactForm"
+          >
+            <div class="row">
+              <div class="col-sm-12">
+                <h4 class="contact-panel__title">Get In Touch</h4>
+                <p class="contact-panel__desc mb-40">
+                  Complete control over products allows us to ensure our
+                  customers receive the best quality prices and service. We take
+                  great pride in everything that we do in our factory.
+                </p>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Name"
+                    id="contact-name"
+                    name="contact-name"
+                    required
+                  />
+                </div>
+              </div>
+              <!-- /.col-lg-6 -->
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email"
+                    id="contact-email"
+                    name="contact-email"
+                    required
+                  />
+                </div>
+              </div>
+              <!-- /.col-lg-6 -->
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Phone"
+                    id="contact-Phone"
+                    name="contact-phone"
+                    required
+                  />
+                </div>
+              </div>
+              <!-- /.col-lg-6 -->
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="form-group">
+                  <select class="form-control">
+                    <option value="0">Select Your Service</option>
+                    <option value="1">consulting</option>
+                    <option value="2">constructions</option>
+                  </select>
+                </div>
+              </div>
+              <!-- /.col-lg-6 -->
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <div class="form-group">
+                  <textarea
+                    class="form-control"
+                    placeholder="Additional Details!"
+                    id="contact-messgae"
+                    name="contact-messgae"
+                    required
+                  ></textarea>
+                </div>
+              </div>
+              <!-- /.col-lg-12 -->
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <button type="submit" class="btn btn__secondary btn__block">
+                  Submit Request
+                </button>
+                <div class="contact-result"></div>
+              </div>
+              <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+          </form>
+        </div>
+        <!-- /.contact__panel -->
+      </div>
+      <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+<!-- /.contact layout 1 -->
+
+<!-- ========================= 
+        Google Map
+=========================  -->
+<section class="google-map p-0 mt--120">
+  <div id="map" style="height: 440px"></div>
+  <script src="assets/js/google-map.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqrqPZOVegy1VIdyIcndxZY9YGoK-x0Yo&callback=initMap"
+    async
+    defer
+  ></script>
+</section>
+<!-- /.GoogleMap -->

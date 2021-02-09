@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include ('../partials/head.ejs') %>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="preloader">
+        <div class="loading">
+          <span></span><span></span><span></span><span></span><span></span
+          ><span></span><span></span><span></span>
+        </div>
+      </div>
+      <!-- ====================== Header section =========================== -->
+      <%- include ('../partials/header.ejs') %> 
+      <!-- ====================== Template section =========================== -->
+      <%- include (`../pages/${template}`) %> 
+    <!-- ======================== Footer Section =========================== -->
+    <%- include ('../partials/footer.ejs') %>
+  </body>
+</html>

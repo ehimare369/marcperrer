@@ -1,0 +1,21 @@
+{
+  "name": "marc",
+  "version": "1.0.0",
+  "description": "A foreign civil engineering and construction company",
+  "main": "server.js",
+  "author": "Ehimare Okosun",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "dev": "nodemon server/server.js",
+    "start": "node server/server.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": "v14.15.1"
+  }
+}
