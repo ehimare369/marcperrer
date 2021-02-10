@@ -1,8 +1,8 @@
 {
-  "name": "marc",
+  "name": "marcperrer",
   "version": "1.0.0",
   "description": "A foreign civil engineering and construction company",
-  "main": "server.js",
+  "main": "server/server.js",
   "author": "Ehimare Okosun",
   "license": "MIT",
   "private": true,
@@ -17,5 +17,6 @@
   "type": "module",
   "engines": {
     "node": "v14.15.1"
-  }
+  },
+  "repository": "git@github.com:ehimare369/marcperrer.git"
 }
