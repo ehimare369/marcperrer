@@ -2,7 +2,7 @@
   "name": "marcperrer",
   "version": "1.0.0",
   "description": "A foreign civil engineering and construction company",
-  "main": "server/server.js",
+  "main": "server.js",
   "author": "Ehimare Okosun",
   "license": "MIT",
   "private": true,

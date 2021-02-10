@@ -4,7 +4,7 @@ import express from "express";
 // Import all routers
 import router from "./routes/routes.js";
 
-const PORT = 9000 || process.env.PORT;
+const PORT = process.env.PORT || 3000;
 
 // Initialize express()
 const app = express();
